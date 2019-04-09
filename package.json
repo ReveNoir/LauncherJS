@@ -1,0 +1,13 @@
+{
+  "name": "edeniacraft",
+  "version": "1.0.0",
+  "description": "EdeniaCraft Launcher",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron ./src/main.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "electron": "^4.1.3"
+  }
+}
