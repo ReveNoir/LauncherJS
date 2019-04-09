@@ -12,8 +12,6 @@ const createWindow = () => {
     }
   })
 
-  console.log()
-
   mainWindow.loadFile(path.resolve(__dirname, `../resource/index.html`))
 
   mainWindow.on('closed', () => {
